@@ -23,5 +23,22 @@ pats_df <- data.frame(var1 = pats_first_var, var2 = pats_second_var)
 str(pats_df)
 ```
 
+You add some insight to Pat's work and pose another question.
+
+```{r}
+# Your great code
+your_first_var <- c('i', 'ii', 'iii', 'iv')
+your_second_var <- c('first', 'second', 'third', 'fourth')
+
+your_df <- data.frame(var1 = your_first_var, var2 = your_second_var)
+
+str(your_df)
+```
+
+You interpret your work and give discussion.
+
 Pat concludes the section by discussing the code's output.
 
+## You Conclusion
+
+You conclude the report with great insight, tying things together and posing a few future question that could be researched. 
