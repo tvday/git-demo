@@ -357,6 +357,10 @@ display: none;
 </div>
 
 
+<div id="pats-introduction" class="section level2">
+<h2>Pats Introduction</h2>
+<p>Pat Writes a great introduction with a great hook.</p>
+</div>
 <div id="pats-contribution" class="section level2">
 <h2>Pat’s contribution</h2>
 <p>Pat adds a great section to the document. It has great analysis and
@@ -371,6 +375,17 @@ str(pats_df)</code></pre>
 <pre><code>## &#39;data.frame&#39;:    4 obs. of  2 variables:
 ##  $ var1: num  1 2 3 4
 ##  $ var2: chr  &quot;a&quot; &quot;b&quot; &quot;c&quot; &quot;d&quot;</code></pre>
+<p>Some more of Pat’s write up, transitioning to new code block.</p>
+<pre class="r"><code># Pat&#39;s new code block
+table(pats_df)</code></pre>
+<pre><code>##     var2
+## var1 a b c d
+##    1 1 0 0 0
+##    2 0 1 0 0
+##    3 0 0 1 0
+##    4 0 0 0 1</code></pre>
+<pre class="r"><code>mean(pats_df$var1)</code></pre>
+<pre><code>## [1] 2.5</code></pre>
 <p>You add some insight to Pat’s work and pose another question.</p>
 <pre class="r"><code># Your great code
 your_first_var &lt;- c(&#39;i&#39;, &#39;ii&#39;, &#39;iii&#39;, &#39;iv&#39;)

@@ -9,6 +9,10 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## Pats Introduction
+
+Pat Writes a great introduction with a great hook.
+
 ## Pat's contribution
 
 Pat adds a great section to the document. It has great analysis and code.
@@ -21,6 +25,15 @@ pats_second_var <- c('a', 'b', 'c', 'd')
 pats_df <- data.frame(var1 = pats_first_var, var2 = pats_second_var)
 
 str(pats_df)
+```
+
+Some more of Pat's write up, transitioning to new code block.
+
+```{r}
+# Pat's new code block
+table(pats_df)
+
+mean(pats_df$var1)
 ```
 
 You add some insight to Pat's work and pose another question.
